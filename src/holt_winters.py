@@ -133,8 +133,9 @@ def holt_winters(x, m, fc, alpha = None, beta = None, gamma = None, mode = None)
 # m = periodicity of the data
 # fc number of poinths to forecast into the future
 
-data = pcap_time.get_time('test3.txt')
-print holt_winters(data[1:10], 1, 10, mode='multiplicative')[0]
+# data = pcap_time.get_time('test3.txt')
+# print holt_winters(data[1:10], 1, 10, mode='multiplicative')[0]
 
-
+#data = [1.0,2.0,3.0,1.0,2.0,3.0,4.0]
+#print holt_winters(data, 4, 2, mode='multiplicative')[0]
 
